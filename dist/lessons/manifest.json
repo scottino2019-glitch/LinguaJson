@@ -70,5 +70,17 @@
     "category": "Viaggi & Orientamento",
     "exerciseCount": 7,
     "file": "/lessons/russo_viaggi_domande.json"
+  },
+{
+    "id": "cinese_hsk1_classifivatori",
+    "title": "Cinese: Classificatori",
+    "description": "Come usare i clasificatori.",
+    "language": "Cinese",
+    "languageCode": "zh-CN",
+    "flag": "🇨🇳",
+    "level": "Primcipiante",
+    "category": "Classificatori",
+    "exerciseCount": 8,
+    "file": "/lessons/cinese_hsk1_classifovatori.json"
   }
 ]
