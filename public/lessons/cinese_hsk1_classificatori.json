@@ -1,0 +1,119 @@
+{
+  "id": "cinese_hsk1_classificatori",
+  "title": "Cinese HSK 1: I Classificatori (量词)",
+  "description": "Impara ad associare i principali classificatori cinesi (个, 只, 本, 杯, 张, 条) ai nomi corrispondenti attraverso esercizi di drag & drop, ascolto e traduzione.",
+  "language": "Cinese",
+  "languageCode": "zh-CN",
+  "flag": "🇨🇳",
+  "level": "Principiante",
+  "category": "Grammatica & Lessico",
+  "tags": ["HSK 1", "HSK 2", "Classificatori", "Pinyin", "Hanzi"],
+  "author": "LinguaJSON Studio",
+  "version": "1.0",
+  "exercises": [
+    {
+      "id": "zh_clf_01",
+      "type": "drag_sentence",
+      "prompt": "Trascina e ordina le parole per formare la frase: 'Io voglio tre libri'",
+      "targetText": "我要三本书",
+      "romanization": "Wǒ yào sān běn shū",
+      "sentenceParts": ["本", "书", "三", "我要"],
+      "correctSentence": ["我要", "三", "本", "书"],
+      "explanation": "La struttura numerica in cinese segue sempre l'ordine: Numero + Classificatore + Nome. '本' (běn) è il classificatore per libri e volumi."
+    },
+    {
+      "id": "zh_clf_02",
+      "type": "listening",
+      "prompt": "Ascolta la traccia audio e seleziona il significato corretto:",
+      "targetText": "一杯水",
+      "romanization": "Yī bēi shuǐ",
+      "audioText": "一杯水",
+      "audioLang": "zh-CN",
+      "options": [
+        "Un bicchiere d'acqua",
+        "Una tazza di tè",
+        "Una bottiglia d'acqua",
+        "Un piatto di riso"
+      ],
+      "correctAnswer": "Un bicchiere d'acqua",
+      "explanation": "‘杯’ (bēi) è il classificatore per tazze e bicchieri (es. 一杯水 = un bicchiere d'acqua)."
+    },
+    {
+      "id": "zh_clf_03",
+      "type": "matching_pairs",
+      "prompt": "Collega ciascun classificatore con la categoria di oggetti a cui si applica:",
+      "pairs": [
+        { "id": "p1", "left": "个", "right": "Generico / Persone (gè)", "leftSub": "gè" },
+        { "id": "p2", "left": "本", "right": "Libri e riviste (běn)", "leftSub": "běn" },
+        { "id": "p3", "left": "只", "right": "Piccoli animali (zhī)", "leftSub": "zhī" },
+        { "id": "p4", "left": "张", "right": "Oggetti piatti / fogli / tavoli (zhāng)", "leftSub": "zhāng" },
+        { "id": "p5", "left": "条", "right": "Cose lunghe e flessibili (tiáo)", "leftSub": "tiáo" }
+      ],
+      "explanation": "Ogni classificatore si riferisce alla forma o alla natura dell'oggetto: '张' per superfici piatte, '条' per cose lunghe, '只' per animali."
+    },
+    {
+      "id": "zh_clf_04",
+      "type": "writing",
+      "prompt": "Traduci in italiano la seguente espressione:",
+      "targetText": "两个人",
+      "romanization": "Liǎng gè rén",
+      "acceptedAnswers": ["due persone", "due individui"],
+      "hint": "Ricorda che davanti al classificatore per indicare la quantità 'due' si usa 两 (liǎng) e non 二 (èr)...",
+      "explanation": "‘两’ (liǎng) si usa anziché ‘二’ quando si contano gli oggetti seguiti da classificatore. ‘个’ (gè) è il classificatore generico per persone e cose."
+    },
+    {
+      "id": "zh_clf_05",
+      "type": "drag_sentence",
+      "prompt": "Trascina e ordina le tessere per formare: 'Lui ha un gatto'",
+      "targetText": "他有一只猫",
+      "romanization": "Tā yǒu yī zhī māo",
+      "sentenceParts": ["猫", "只", "一", "他有"],
+      "correctSentence": ["他有", "一", "只", "猫"],
+      "explanation": "‘只’ (zhī) è il classificatore per molti animali, inclusi gatti (猫 māo), cani e uccelli."
+    },
+    {
+      "id": "zh_clf_06",
+      "type": "listening",
+      "prompt": "Ascolta la traccia audio e seleziona l'oggetto a cui si riferisce la frase:",
+      "targetText": "一张桌子",
+      "romanization": "Yī zhāng zhuōzi",
+      "audioText": "一张桌子",
+      "audioLang": "zh-CN",
+      "options": [
+        "Un tavolo",
+        "Una sedia",
+        "Un letto",
+        "Un foglio di carta"
+      ],
+      "correctAnswer": "Un tavolo",
+      "explanation": "‘张’ (zhāng) si usa per oggetti con superfici piane o estese, come tavoli (桌子), letti (床) e fogli di carta (纸)."
+    },
+    {
+      "id": "zh_clf_07",
+      "type": "fill_blank",
+      "prompt": "Inserisci il classificatore corretto per i vestiti/gonne o pesci: 'Una gonna/Un pesce'",
+      "targetText": "一条 [blank]",
+      "romanization": "Yī tiáo [blank]",
+      "blankSentence": "一条 [blank]",
+      "options": ["裙子", "书", "水", "人"],
+      "correctAnswer": "裙子",
+      "acceptedAnswers": ["裙子", "qunzi", "qúnzi"],
+      "explanation": "‘条’ (tiáo) si applica a oggetti o animali lunghi e sinuosi come gonne (裙子), pantaloni (裤子), pesci (鱼) e fiumi (河)."
+    },
+    {
+      "id": "zh_clf_08",
+      "type": "writing",
+      "prompt": "Traduci in italiano la frase completa:",
+      "targetText": "我想买一本词典",
+      "romanization": "Wǒ xiǎng mǎi yī běn cídiǎn",
+      "acceptedAnswers": [
+        "voglio comprare un dizionario",
+        "vorrei comprare un dizionario",
+        "io voglio comprare un dizionario",
+        "io vorrei comprare un dizionario"
+      ],
+      "hint": "词典 (cídiǎn) significa 'dizionario'...",
+      "explanation": "‘想买’ (xiǎng mǎi) = vorrei comprare; ‘一本词典’ (yī běn cídiǎn) = un dizionario (con il classificatore 本 běn per libri e dizionari)."
+    }
+  ]
+}
