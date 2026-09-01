@@ -15,8 +15,6 @@
       "id": "zh_clf_01",
       "type": "drag_sentence",
       "prompt": "Trascina e ordina le parole per formare la frase: 'Io voglio tre libri'",
-      "targetText": "我要三本书",
-      "romanization": "Wǒ yào sān běn shū",
       "sentenceParts": ["本", "书", "三", "我要"],
       "correctSentence": ["我要", "三", "本", "书"],
       "explanation": "La struttura numerica in cinese segue sempre l'ordine: Numero + Classificatore + Nome. '本' (běn) è il classificatore per libri e volumi."
@@ -57,7 +55,6 @@
       "prompt": "Traduci in italiano la seguente espressione:",
       "targetText": "两个人",
       "romanization": "Liǎng gè rén",
-      "acceptedAnswers": ["due persone", "due individui"],
       "hint": "Ricorda che davanti al classificatore per indicare la quantità 'due' si usa 两 (liǎng) e non 二 (èr)...",
       "explanation": "‘两’ (liǎng) si usa anziché ‘二’ quando si contano gli oggetti seguiti da classificatore. ‘个’ (gè) è il classificatore generico per persone e cose."
     },
@@ -65,8 +62,6 @@
       "id": "zh_clf_05",
       "type": "drag_sentence",
       "prompt": "Trascina e ordina le tessere per formare: 'Lui ha un gatto'",
-      "targetText": "他有一只猫",
-      "romanization": "Tā yǒu yī zhī māo",
       "sentenceParts": ["猫", "只", "一", "他有"],
       "correctSentence": ["他有", "一", "只", "猫"],
       "explanation": "‘只’ (zhī) è il classificatore per molti animali, inclusi gatti (猫 māo), cani e uccelli."
@@ -92,8 +87,6 @@
       "id": "zh_clf_07",
       "type": "fill_blank",
       "prompt": "Inserisci il classificatore corretto per i vestiti/gonne o pesci: 'Una gonna/Un pesce'",
-      "targetText": "一条 [blank]",
-      "romanization": "Yī tiáo [blank]",
       "blankSentence": "一条 [blank]",
       "options": ["裙子", "书", "水", "人"],
       "correctAnswer": "裙子",
@@ -104,8 +97,6 @@
       "id": "zh_clf_08",
       "type": "writing",
       "prompt": "Traduci in italiano la frase completa:",
-      "targetText": "我想买一本词典",
-      "romanization": "Wǒ xiǎng mǎi yī běn cídiǎn",
       "acceptedAnswers": [
         "voglio comprare un dizionario",
         "vorrei comprare un dizionario",
