@@ -1,0 +1,6 @@
+{
+  "name": "LinguaJSON - Esercizi di Lingua",
+  "description": "Applicazione di studio linguistico guidata da file JSON per cinese, coreano e russo con ascolto vocale, drag & drop, scelta multipla e scrittura.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
