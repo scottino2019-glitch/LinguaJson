@@ -1,0 +1,101 @@
+{
+  "id": "cinese_ristorante_cibo",
+  "title": "Cinese: Ordinare al Ristorante & Cibo",
+  "description": "Come ordinare piatti tipici cinesi, chiedere il conto, specificare le preferenze e comprendere il menù.",
+  "language": "Cinese",
+  "languageCode": "zh-CN",
+  "flag": "🇨🇳",
+  "level": "Intermedio",
+  "category": "Cibo & Ristorazione",
+  "tags": ["Ristorante", "Cibo", "Ordinazioni", "Dialogo"],
+  "author": "LinguaJSON Studio",
+  "version": "1.0",
+  "exercises": [
+    {
+      "id": "zh_r01",
+      "type": "single_choice",
+      "prompt": "Cosa dici al cameriere per chiedere il conto al ristorante cinese?",
+      "targetText": "买单 / 结账",
+      "romanization": "Mǎidān / Jiézhàng",
+      "options": [
+        "Il conto, per favore",
+        "Vorrei il menù",
+        "Dov'è il bagno?",
+        "Non è piccante"
+      ],
+      "correctAnswer": "Il conto, per favore",
+      "explanation": "‘买单’ (Mǎidān - tipico del sud/cantonese entrato nel mandarino comune) o ‘结账’ (Jiézhàng) significano 'portare/pagare il conto'."
+    },
+    {
+      "id": "zh_r02",
+      "type": "listening",
+      "prompt": "Ascolta e individua la richiesta del cliente:",
+      "targetText": "请给我一杯水",
+      "romanization": "Qǐng gěi wǒ yībēi shuǐ",
+      "audioText": "请给我一杯水",
+      "audioLang": "zh-CN",
+      "options": [
+        "Per favore mi dia un bicchiere d'acqua",
+        "Vorrei una tazza di tè verde",
+        "Quanto costa questo piatto?",
+        "Siamo in tre persone"
+      ],
+      "correctAnswer": "Per favore mi dia un bicchiere d'acqua",
+      "explanation": "请 (per favore) + 给我 (dammi) + 一杯 (un bicchiere) + 水 (acqua)."
+    },
+    {
+      "id": "zh_r03",
+      "type": "drag_sentence",
+      "prompt": "Ordina le tessere per dire: 'Non voglio cibo piccante'",
+      "targetText": "我不要辣的",
+      "romanization": "Wǒ bù yào là de",
+      "sentenceParts": ["辣的", "不要", "我"],
+      "correctSentence": ["我", "不要", "辣的"],
+      "explanation": "我 (io) + 不要 (non voglio) + 辣的 (quello piccante)."
+    },
+    {
+      "id": "zh_r04",
+      "type": "matching_pairs",
+      "prompt": "Collega i cibi cinesi con la loro descrizione:",
+      "pairs": [
+        { "id": "cp1", "left": "米饭", "right": "Riso cotto (mǐfàn)", "leftSub": "mǐfàn" },
+        { "id": "cp2", "left": "面条", "right": "Noodles / Tagliolini (miàntiáo)", "leftSub": "miàntiáo" },
+        { "id": "cp3", "left": "饺子", "right": "Ravioli / Jiaozi (jiǎozi)", "leftSub": "jiǎozi" },
+        { "id": "cp4", "left": "中国茶", "right": "Tè cinese (zhōngguó chá)", "leftSub": "zhōngguó chá" }
+      ],
+      "explanation": "Questi sono i punti fermi dell'alimentazione tradizionale cinese."
+    },
+    {
+      "id": "zh_r05",
+      "type": "writing",
+      "prompt": "Come si dice 'Molto buono / Delizioso' parlando di cibo in cinese? (Scrivi in pinyin o caratteri)",
+      "targetText": "好吃",
+      "romanization": "Hǎochī",
+      "acceptedAnswers": ["好吃", "haochi", "hǎochī", "buono", "delizioso", "molto buono"],
+      "hint": "Letteralmente 'Buono da mangiare' (Hao + Chi)...",
+      "explanation": "‘好吃’ (Hǎochī): 好 (buono) + 吃 (mangiare) = gustoso, delizioso."
+    },
+    {
+      "id": "zh_r06",
+      "type": "fill_blank",
+      "prompt": "Completa la frase: 'Vorrei ordinare questo piatto'",
+      "targetText": "我要 [blank] 这个菜。",
+      "romanization": "Wǒ yào [blank] zhège cài.",
+      "blankSentence": "我要 [blank] 这个菜。",
+      "options": ["点", "看", "喝", "买"],
+      "correctAnswer": "点",
+      "acceptedAnswers": ["点", "dian", "diǎn"],
+      "explanation": "‘点菜’ (diǎncài) significa ordinare pietanze."
+    },
+    {
+      "id": "zh_r07",
+      "type": "drag_sentence",
+      "prompt": "Ordina le tessere per formare: 'Questo è troppo caro!'",
+      "targetText": "这个太贵了",
+      "romanization": "Zhège tài guì le",
+      "sentenceParts": ["太贵了", "这个"],
+      "correctSentence": ["这个", "太贵了"],
+      "explanation": "Struttura 太...了 (tài...le) per esprimere eccesso: 太 (troppo) + 贵 (costoso) + 了."
+    }
+  ]
+}

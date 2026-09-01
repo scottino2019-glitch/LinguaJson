@@ -1,0 +1,120 @@
+{
+  "id": "coreano_hangul_conversazione",
+  "title": "Coreano: Hangul, Saluti e Frasi Quotidiane",
+  "description": "Esercizi pratici sull'alfabeto Hangul, saluti cortesi (존댓말), presentazioni e lessico essenziale con pronuncia audio.",
+  "language": "Coreano",
+  "languageCode": "ko-KR",
+  "flag": "🇰🇷",
+  "level": "Principiante",
+  "category": "Hangul & Vita Quotidiana",
+  "tags": ["Hangul", "Saluti", "Jondaetmal", "Principiante"],
+  "author": "LinguaJSON Studio",
+  "version": "1.0",
+  "exercises": [
+    {
+      "id": "ko_01",
+      "type": "single_choice",
+      "prompt": "Cosa significa il saluto standard formale-cortese in coreano?",
+      "targetText": "안녕하세요",
+      "romanization": "Annyeonghaseyo",
+      "options": [
+        "Buongiorno / Salve / Ciao",
+        "Grazie mille",
+        "Buonanotte",
+        "Scusatemi"
+      ],
+      "correctAnswer": "Buongiorno / Salve / Ciao",
+      "explanation": "‘안녕하세요’ (An-nyeong-ha-se-yo) deriva da 안녕 (pace/salute). È il saluto cortese universale usato a qualsiasi ora del giorno."
+    },
+    {
+      "id": "ko_02",
+      "type": "listening",
+      "prompt": "Ascolta la pronuncia coreana e scegli la traduzione esatta:",
+      "targetText": "감사합니다",
+      "romanization": "Gamsahamnida",
+      "audioText": "감사합니다",
+      "audioLang": "ko-KR",
+      "options": [
+        "Grazie mille (molto formale)",
+        "Prego, si figuri",
+        "Arrivederci",
+        "Per favore"
+      ],
+      "correctAnswer": "Grazie mille (molto formale)",
+      "explanation": "‘감사합니다’ (Gamsahamnida) è la formula di ringraziamento formale più comune e rispettosa."
+    },
+    {
+      "id": "ko_03",
+      "type": "drag_sentence",
+      "prompt": "Ordina i blocchi per comporre la frase: 'Io sono uno studente/una studentessa'",
+      "targetText": "저는 학생입니다",
+      "romanization": "Jeoneun haksaeng-imnida",
+      "sentenceParts": ["학생입니다", "저는"],
+      "correctSentence": ["저는", "학생입니다"],
+      "explanation": "‘저’ (io, modesto) + ‘는’ (particella tema) + ‘학생’ (studente) + ‘입니다’ (copula 'essere' formale)."
+    },
+    {
+      "id": "ko_04",
+      "type": "matching_pairs",
+      "prompt": "Associa ciascuna parola coreana in Hangul con il suo significato:",
+      "pairs": [
+        { "id": "kp1", "left": "물", "right": "Acqua (mul)", "leftSub": "mul" },
+        { "id": "kp2", "left": "밥", "right": "Riso / Pasto (bap)", "leftSub": "bap" },
+        { "id": "kp3", "left": "친구", "right": "Amico/a (chingu)", "leftSub": "chingu" },
+        { "id": "kp4", "left": "집", "right": "Casa (jip)", "leftSub": "jip" },
+        { "id": "kp5", "left": "선생님", "right": "Insegnante / Professore (seonsaengnim)", "leftSub": "seonsaengnim" }
+      ],
+      "explanation": "Questi sono sostantivi di uso quotidiano essenziali nella lingua coreana."
+    },
+    {
+      "id": "ko_05",
+      "type": "writing",
+      "prompt": "Come si dice 'Sì' in coreano formale/cortese? (Scrivi in Hangul o traslitterazione)",
+      "targetText": "네",
+      "romanization": "Ne / De",
+      "acceptedAnswers": ["네", "ne", "de", "예", "ye"],
+      "hint": "Inizia con il suono N o Y...",
+      "explanation": "‘네’ (Ne) oppure ‘예’ (Ye) significano 'Sì' in registro cortese."
+    },
+    {
+      "id": "ko_06",
+      "type": "fill_blank",
+      "prompt": "Seleziona la particella tematica corretta da inserire: 'Per quanto riguarda me...' (저는)",
+      "targetText": "저[blank] 이탈리아 사람이에요.",
+      "romanization": "Jeo[blank] Itallia saram-ieyo.",
+      "blankSentence": "저 [blank] 이탈리아 사람이에요.",
+      "options": ["는", "은", "를", "에"],
+      "correctAnswer": "는",
+      "acceptedAnswers": ["는", "neun"],
+      "explanation": "Poiché '저' (Jeo) termina con una vocale, si usa la particella tema '는' (neun), diventando '저는' (jeoneun)."
+    },
+    {
+      "id": "ko_07",
+      "type": "drag_sentence",
+      "prompt": "Ordina i tasselli per dire: 'Piacere di conoscerti!'",
+      "targetText": "만나서 반갑습니다",
+      "romanization": "Mannaseo bangapseumnida",
+      "sentenceParts": ["반갑습니다", "만나서"],
+      "correctSentence": ["만나서", "반갑습니다"],
+      "explanation": "‘만나서’ (incontrandosi/vedendosi) + ‘반갑습니다’ (sono felice/lieto)."
+    },
+    {
+      "id": "ko_08",
+      "type": "multiple_choice",
+      "prompt": "Quali di queste espressioni indicano un commiato o arrivederci in coreano?",
+      "targetText": "작별 인사",
+      "options": [
+        "안녕히 계세요 (Arrivederci, detto a chi resta)",
+        "안녕히 가세요 (Arrivederci, detto a chi se ne va)",
+        "맛있게 드세요 (Buon appetito)",
+        "또 만나요 (Ci vediamo di nuovo / A presto)"
+      ],
+      "correctAnswer": [
+        "안녕히 계세요 (Arrivederci, detto a chi resta)",
+        "안녕히 가세요 (Arrivederci, detto a chi se ne va)",
+        "또 만나요 (Ci vediamo di nuovo / A presto)"
+      ],
+      "explanation": "In coreano ci sono due forme distinte di arrivederci a seconda che chi parla stia andando via o restando sul posto!"
+    }
+  ]
+}

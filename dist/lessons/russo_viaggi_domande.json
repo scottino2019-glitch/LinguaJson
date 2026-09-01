@@ -1,0 +1,109 @@
+{
+  "id": "russo_viaggi_domande",
+  "title": "Russo: Viaggi, Direzioni e Domande Utili",
+  "description": "Chiedere indicazioni stradali in russo, acquistare biglietti, orari e strutture interrogative indispensabili.",
+  "language": "Russo",
+  "languageCode": "ru-RU",
+  "flag": "🇷🇺",
+  "level": "Intermedio",
+  "category": "Viaggi & Orientamento",
+  "tags": ["Viaggi", "Domande", "Indicazioni", "Stazione"],
+  "author": "LinguaJSON Studio",
+  "version": "1.0",
+  "exercises": [
+    {
+      "id": "ru_t01",
+      "type": "single_choice",
+      "prompt": "Come si chiede 'Dov'è la stazione ferroviaria?' in russo?",
+      "targetText": "Где находится вокзал?",
+      "romanization": "Gde nakhoditsya vokzal?",
+      "options": [
+        "Dov'è la stazione ferroviaria?",
+        "A che ora parte il treno?",
+        "Quanto costa il biglietto?",
+        "Dov'è l'aeroporto?"
+      ],
+      "correctAnswer": "Dov'è la stazione ferroviaria?",
+      "explanation": "‘Где’ (Dove) + ‘находится’ (si trova) + ‘вокзал’ (stazione ferroviaria)."
+    },
+    {
+      "id": "ru_t02",
+      "type": "listening",
+      "prompt": "Ascolta l'audio e individua la domanda pronunciata:",
+      "targetText": "Сколько это стоит?",
+      "romanization": "Skol'ko eto stoit?",
+      "audioText": "Сколько это стоит?",
+      "audioLang": "ru-RU",
+      "options": [
+        "Quanto costa questo?",
+        "Che ore sono?",
+        "Come si arriva lì?",
+        "Parla italiano?"
+      ],
+      "correctAnswer": "Quanto costa questo?",
+      "explanation": "‘Сколько’ (quanto) + ‘это’ (questo) + ‘стоит’ (costa)."
+    },
+    {
+      "id": "ru_t03",
+      "type": "drag_sentence",
+      "prompt": "Ordina le tessere per formare: 'Io non capisco'",
+      "targetText": "Я не понимаю",
+      "romanization": "Ya ne ponimayu",
+      "sentenceParts": ["понимаю", "не", "Я"],
+      "correctSentence": ["Я", "не", "понимаю"],
+      "explanation": "Я (Io) + la particella negativa 'не' (non) + понимаю (capisco/comprendo)."
+    },
+    {
+      "id": "ru_t04",
+      "type": "matching_pairs",
+      "prompt": "Associa le indicazioni di direzione in russo con l'italiano:",
+      "pairs": [
+        { "id": "rp_d1", "left": "Направо", "right": "A destra (Napravo)", "leftSub": "Napravo" },
+        { "id": "rp_d2", "left": "Налево", "right": "A sinistra (Nalevo)", "leftSub": "Nalevo" },
+        { "id": "rp_d3", "left": "Прямо", "right": "Dritto (Pryamo)", "leftSub": "Pryamo" },
+        { "id": "rp_d4", "left": "Рядом", "right": "Vicino / Accanto (Ryadom)", "leftSub": "Ryadom" }
+      ],
+      "explanation": "Avverbi di direzione essenziali per orientarsi in una città russofona."
+    },
+    {
+      "id": "ru_t05",
+      "type": "writing",
+      "prompt": "Scrivi la parola russa per 'biglietto' (in cirillico o traslitterazione):",
+      "targetText": "Билет",
+      "romanization": "Bilet",
+      "acceptedAnswers": ["билет", "bilet", "il biglietto", "biglietto"],
+      "hint": "Molto simile all'italiano 'biglietto' o al francese 'billet'...",
+      "explanation": "‘Билет’ (Bilet) è la parola usata per biglietti di treno, metro, aereo o cinema."
+    },
+    {
+      "id": "ru_t06",
+      "type": "fill_blank",
+      "prompt": "Completa la domanda per chiedere se l'interlocutore parla inglese:",
+      "targetText": "Вы говорите по-[blank]?",
+      "romanization": "Vy govorite po-[blank]?",
+      "blankSentence": "Вы говорите по-[blank]?",
+      "options": ["английски", "итальянски", "русски", "немецки"],
+      "correctAnswer": "английски",
+      "acceptedAnswers": ["английски", "angliyski", "anglijski"],
+      "explanation": "‘по-английски’ significa 'in inglese' (Вы говорите по-английски? = Parla inglese?)."
+    },
+    {
+      "id": "ru_t07",
+      "type": "multiple_choice",
+      "prompt": "Quali di queste parole russe sono parole interrogative (chi, dove, quando, perché)?",
+      "targetText": "Вопросительные слова",
+      "options": [
+        "Кто (Chi)",
+        "Где (Dove)",
+        "Когда (Quando)",
+        "Красивый (Bello)"
+      ],
+      "correctAnswer": [
+        "Кто (Chi)",
+        "Где (Dove)",
+        "Когда (Quando)"
+      ],
+      "explanation": "Кто (Chi), Где (Dove) e Когда (Quando) sono pronomi/avverbi interrogativi. ‘Красивый’ è un aggettivo (Bello)."
+    }
+  ]
+}

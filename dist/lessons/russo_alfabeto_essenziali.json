@@ -1,0 +1,120 @@
+{
+  "id": "russo_alfabeto_essenziali",
+  "title": "Russo: Alfabeto Cirillico e Frasi Essenziali",
+  "description": "Riconoscimento delle lettere cirilliche, saluti informali e formali, numeri e frasi di base per iniziare a comunicare.",
+  "language": "Russo",
+  "languageCode": "ru-RU",
+  "flag": "🇷🇺",
+  "level": "Principiante",
+  "category": "Cirillico & Dialoghi",
+  "tags": ["Cirillico", "Saluti", "Principiante", "Vocabolario"],
+  "author": "LinguaJSON Studio",
+  "version": "1.0",
+  "exercises": [
+    {
+      "id": "ru_01",
+      "type": "single_choice",
+      "prompt": "Qual è il saluto informale (equivalente al nostro 'Ciao!') in russo?",
+      "targetText": "Привет",
+      "romanization": "Privet",
+      "options": [
+        "Ciao (informale)",
+        "Buongiorno (formale)",
+        "Arrivederci",
+        "Grazie"
+      ],
+      "correctAnswer": "Ciao (informale)",
+      "explanation": "‘Привет’ (Privét) è il saluto informale tra amici e coetanei. Per situazioni formali si usa ‘Здравствуйте’ (Zdravstvujte)."
+    },
+    {
+      "id": "ru_02",
+      "type": "listening",
+      "prompt": "Ascolta la pronuncia russa e seleziona la traduzione corrispondente:",
+      "targetText": "Спасибо большое",
+      "romanization": "Spasibo bol'shoe",
+      "audioText": "Спасибо большое",
+      "audioLang": "ru-RU",
+      "options": [
+        "Grazie mille / Molte grazie",
+        "Non fa niente, prego",
+        "Buona serata",
+        "Come sta?"
+      ],
+      "correctAnswer": "Grazie mille / Molte grazie",
+      "explanation": "‘Спасибо’ (Spasíbo) significa 'grazie', mentre ‘большое’ (bol'shóye) significa letteralmente 'grande', quindi 'grazie mille'."
+    },
+    {
+      "id": "ru_03",
+      "type": "drag_sentence",
+      "prompt": "Trascina e ordina le parole per formare: 'Come ti chiami?' (in russo)",
+      "targetText": "Как тебя зовут?",
+      "romanization": "Kak tebya zovut?",
+      "sentenceParts": ["зовут?", "Как", "тебя"],
+      "correctSentence": ["Как", "тебя", "зовут?"],
+      "explanation": "Letteralmente significa 'Come ti chiamano?': Как (come) + тебя (ti/te) + зовут (chiamano)."
+    },
+    {
+      "id": "ru_04",
+      "type": "matching_pairs",
+      "prompt": "Collega ciascuna parola russa con la sua traduzione in italiano:",
+      "pairs": [
+        { "id": "rp1", "left": "Да", "right": "Sì (Da)", "leftSub": "Da" },
+        { "id": "rp2", "left": "Нет", "right": "No (Net)", "leftSub": "Net" },
+        { "id": "rp3", "left": "Пожалуйста", "right": "Per favore / Prego", "leftSub": "Pozhaluysta" },
+        { "id": "rp4", "left": "Хорошо", "right": "Bene / D'accordo", "leftSub": "Khorosho" },
+        { "id": "rp5", "left": "До свидания", "right": "Arrivederci", "leftSub": "Do svidaniya" }
+      ],
+      "explanation": "Questi cinque termini costituiscono il nucleo fondamentale della cortesia nella lingua russa."
+    },
+    {
+      "id": "ru_05",
+      "type": "writing",
+      "prompt": "Scrivi la traduzione o traslitterazione in italiano della parola 'pane' in russo:",
+      "targetText": "Хлеб",
+      "romanization": "Khleb",
+      "acceptedAnswers": ["pane", "il pane", "khleb", "hleb"],
+      "hint": "Un alimento fondamentale a base di farina e lievito...",
+      "explanation": "‘Хлеб’ (Khleb) significa 'pane', simbolo tradizionale di ospitalità nella cultura russa (хлеб-соль)."
+    },
+    {
+      "id": "ru_06",
+      "type": "fill_blank",
+      "prompt": "Completa la frase: 'Io parlo [russo]'",
+      "targetText": "Я говорю по-[blank].",
+      "romanization": "Ya govoryu po-[blank].",
+      "blankSentence": "Я говорю по-[blank].",
+      "options": ["русски", "Россия", "русский", "итальянский"],
+      "correctAnswer": "русски",
+      "acceptedAnswers": ["русски", "russki"],
+      "explanation": "Con il verbo говорить (parlare) e la preposizione 'по-', l'avverbio di lingua prende la forma 'по-русски'."
+    },
+    {
+      "id": "ru_07",
+      "type": "drag_sentence",
+      "prompt": "Ordina i tasselli per formare: 'Io studio la lingua russa'",
+      "targetText": "Я учу русский язык",
+      "romanization": "Ya uchu russkiy yazyk",
+      "sentenceParts": ["русский", "Я", "язык", "учу"],
+      "correctSentence": ["Я", "учу", "русский", "язык"],
+      "explanation": "Я (Io) + учу (imparo/studio) + русский язык (la lingua russa in accusativo inanimato)."
+    },
+    {
+      "id": "ru_08",
+      "type": "multiple_choice",
+      "prompt": "Quali di queste parole russe sono numeri da 1 a 3? (Seleziona tutte quelle corrette)",
+      "targetText": "Числа",
+      "options": [
+        "Один (Uno)",
+        "Два (Due)",
+        "Три (Tre)",
+        "Стол (Tavolo)"
+      ],
+      "correctAnswer": [
+        "Один (Uno)",
+        "Два (Due)",
+        "Три (Tre)"
+      ],
+      "explanation": "Один (1), Два (2), e Три (3) sono numeri. ‘Стол’ significa tavolo!"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cinese_hsk1_saluti_base",
+    "title": "Cinese HSK 1: Saluti, Numeri e Presentazioni",
+    "description": "Impara i saluti fondamentali in mandarino, i numeri da 1 a 10 e le prime frasi di conversazione con Pinyin e caratteri Hanzi.",
+    "language": "Cinese",
+    "languageCode": "zh-CN",
+    "flag": "🇨🇳",
+    "level": "Principiante",
+    "category": "Saluti & Basi",
+    "exerciseCount": 8,
+    "file": "/lessons/cinese_hsk1_saluti_base.json"
+  },
+  {
+    "id": "coreano_hangul_conversazione",
+    "title": "Coreano: Hangul, Saluti e Frasi Quotidiane",
+    "description": "Esercizi pratici sull'alfabeto Hangul, saluti cortesi (존댓말), presentazioni e lessico essenziale con pronuncia audio.",
+    "language": "Coreano",
+    "languageCode": "ko-KR",
+    "flag": "🇰🇷",
+    "level": "Principiante",
+    "category": "Hangul & Vita Quotidiana",
+    "exerciseCount": 8,
+    "file": "/lessons/coreano_hangul_conversazione.json"
+  },
+  {
+    "id": "russo_alfabeto_essenziali",
+    "title": "Russo: Alfabeto Cirillico e Frasi Essenziali",
+    "description": "Riconoscimento delle lettere cirilliche, saluti informali e formali, numeri e frasi di base per iniziare a comunicare.",
+    "language": "Russo",
+    "languageCode": "ru-RU",
+    "flag": "🇷🇺",
+    "level": "Principiante",
+    "category": "Cirillico & Dialoghi",
+    "exerciseCount": 8,
+    "file": "/lessons/russo_alfabeto_essenziali.json"
+  },
+  {
+    "id": "cinese_ristorante_cibo",
+    "title": "Cinese: Ordinare al Ristorante & Cibo",
+    "description": "Come ordinare piatti tipici cinesi, chiedere il conto, specificare le preferenze e comprendere il menù.",
+    "language": "Cinese",
+    "languageCode": "zh-CN",
+    "flag": "🇨🇳",
+    "level": "Intermedio",
+    "category": "Cibo & Ristorazione",
+    "exerciseCount": 7,
+    "file": "/lessons/cinese_ristorante_cibo.json"
+  },
+  {
+    "id": "coreano_particelle_luoghi",
+    "title": "Coreano: Particelle (은/는, 이/가) e Luoghi",
+    "description": "Esercizi specifici sulla struttura della frase coreana, particelle di soggetto/tema e vocabolario dei luoghi.",
+    "language": "Coreano",
+    "languageCode": "ko-KR",
+    "flag": "🇰🇷",
+    "level": "Intermedio",
+    "category": "Grammatica & Spostamenti",
+    "exerciseCount": 7,
+    "file": "/lessons/coreano_particelle_luoghi.json"
+  },
+  {
+    "id": "russo_viaggi_domande",
+    "title": "Russo: Viaggi, Direzioni e Domande Utili",
+    "description": "Chiedere indicazioni stradali in russo, acquistare biglietti, orari e strutture interrogative indispensabili.",
+    "language": "Russo",
+    "languageCode": "ru-RU",
+    "flag": "🇷🇺",
+    "level": "Intermedio",
+    "category": "Viaggi & Orientamento",
+    "exerciseCount": 7,
+    "file": "/lessons/russo_viaggi_domande.json"
+  }
+]
