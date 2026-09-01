@@ -1,0 +1,120 @@
+{
+  "id": "cinese_hsk1_saluti_base",
+  "title": "Cinese HSK 1: Saluti, Numeri e Presentazioni",
+  "description": "Impara i saluti fondamentali in mandarino, i numeri da 1 a 10 e le prime frasi di conversazione con Pinyin e caratteri Hanzi.",
+  "language": "Cinese",
+  "languageCode": "zh-CN",
+  "flag": "🇨🇳",
+  "level": "Principiante",
+  "category": "Saluti & Basi",
+  "tags": ["HSK 1", "Pinyin", "Saluti", "Numeri"],
+  "author": "LinguaJSON Studio",
+  "version": "1.0",
+  "exercises": [
+    {
+      "id": "zh_01",
+      "type": "single_choice",
+      "prompt": "Qual è il significato della frase di saluto più comune in cinese?",
+      "targetText": "你好",
+      "romanization": "Nǐ hǎo",
+      "options": [
+        "Ciao / Salve",
+        "Grazie mille",
+        "Arrivederci",
+        "Scusa"
+      ],
+      "correctAnswer": "Ciao / Salve",
+      "explanation": "‘你好’ (Nǐ hǎo) è composto da 你 (tu) e 好 (bene/buono). È il saluto generico più comune in lingua cinese."
+    },
+    {
+      "id": "zh_02",
+      "type": "listening",
+      "prompt": "Ascolta la traccia audio e seleziona il significato corretto:",
+      "targetText": "谢谢你",
+      "romanization": "Xièxie nǐ",
+      "audioText": "谢谢你",
+      "audioLang": "zh-CN",
+      "options": [
+        "Grazie (a te)",
+        "Prego, non c'è di che",
+        "Come ti chiami?",
+        "Non capisco"
+      ],
+      "correctAnswer": "Grazie (a te)",
+      "explanation": "‘谢谢’ (Xièxie) significa 'grazie'. Aggiungendo '你' (nǐ) si rivolge espressamente il ringraziamento alla persona."
+    },
+    {
+      "id": "zh_03",
+      "type": "drag_sentence",
+      "prompt": "Trascina e ordina le parole per formare la frase: 'Io sono italiano/a'",
+      "targetText": "我是意大利人",
+      "romanization": "Wǒ shì Yìdàlì rén",
+      "sentenceParts": ["意大利人", "我", "是"],
+      "correctSentence": ["我", "是", "意大利人"],
+      "explanation": "La struttura base della frase cinese è SVO (Soggetto + Verbo + Oggetto): 我 (Io) + 是 (essere) + 意大利人 (italiano)."
+    },
+    {
+      "id": "zh_04",
+      "type": "matching_pairs",
+      "prompt": "Collega ciascun carattere Hanzi con il suo significato e pinyin:",
+      "pairs": [
+        { "id": "p1", "left": "一", "right": "Uno (yī)", "leftSub": "yī" },
+        { "id": "p2", "left": "二", "right": "Due (èr)", "leftSub": "èr" },
+        { "id": "p3", "left": "三", "right": "Tre (sān)", "leftSub": "sān" },
+        { "id": "p4", "left": "四", "right": "Quattro (sì)", "leftSub": "sì" },
+        { "id": "p5", "left": "十", "right": "Dieci (shí)", "leftSub": "shí" }
+      ],
+      "explanation": "I numeri cinesi da 1 a 4 e il 10 sono la base fondamentale per comporre poi tutte le date e i prezzi."
+    },
+    {
+      "id": "zh_05",
+      "type": "writing",
+      "prompt": "Scrivi la traduzione in italiano della parola:",
+      "targetText": "再见",
+      "romanization": "Zàijiàn",
+      "acceptedAnswers": ["arrivederci", "ciao", "a presto", "ci vediamo"],
+      "hint": "Significa letteralmente 'vedersi di nuovo'...",
+      "explanation": "‘再见’ (Zàijiàn): 再 (di nuovo) + 见 (vedere/incontrare) = Arrivederci!"
+    },
+    {
+      "id": "zh_06",
+      "type": "fill_blank",
+      "prompt": "Completa la frase con la parola corretta: 'Come ti chiami?'",
+      "targetText": "你叫什么 [blank]？",
+      "romanization": "Nǐ jiào shénme [blank]?",
+      "blankSentence": "你叫什么 [blank]？",
+      "options": ["名字", "老师", "朋友", "中国人"],
+      "correctAnswer": "名字",
+      "acceptedAnswers": ["名字", "mingzi", "míngzi"],
+      "explanation": "‘名字’ (míngzi) significa 'nome'. '你叫什么名字？' è la domanda classica per chiedere il nome."
+    },
+    {
+      "id": "zh_07",
+      "type": "drag_sentence",
+      "prompt": "Ordina le tessere per formare: 'Molto piacere di conoscerti!'",
+      "targetText": "很高兴认识你",
+      "romanization": "Hěn gāoxìng rènshí nǐ",
+      "sentenceParts": ["认识你", "很", "高兴"],
+      "correctSentence": ["很", "高兴", "认识你"],
+      "explanation": "很 (molto) + 高兴 (felice/contento) + 认识 (conoscere) + 你 (te)."
+    },
+    {
+      "id": "zh_08",
+      "type": "multiple_choice",
+      "prompt": "Quali di queste parole indicano membri della famiglia? (Seleziona tutte quelle corrette)",
+      "targetText": "家庭成员",
+      "options": [
+        "爸爸 (Bàba - Papà)",
+        "苹果 (Píngguǒ - Mela)",
+        "妈妈 (Māma - Mamma)",
+        "哥哥 (Gēge - Fratello maggiore)"
+      ],
+      "correctAnswer": [
+        "爸爸 (Bàba - Papà)",
+        "妈妈 (Māma - Mamma)",
+        "哥哥 (Gēge - Fratello maggiore)"
+      ],
+      "explanation": "‘爸爸’, ‘妈妈’ e ‘哥哥’ sono termini familiari. ‘苹果’ significa mela!"
+    }
+  ]
+}
