@@ -1,0 +1,108 @@
+{
+  "id": "coreano_particelle_luoghi",
+  "title": "Coreano: Particelle (은/는, 이/가) e Luoghi",
+  "description": "Esercizi specifici sulla struttura della frase coreana, particelle di soggetto/tema e vocabolario dei luoghi.",
+  "language": "Coreano",
+  "languageCode": "ko-KR",
+  "flag": "🇰🇷",
+  "level": "Intermedio",
+  "category": "Grammatica & Spostamenti",
+  "tags": ["Particelle", "Luoghi", "Grammatica", "Livello 2"],
+  "author": "LinguaJSON Studio",
+  "version": "1.0",
+  "exercises": [
+    {
+      "id": "ko_p01",
+      "type": "single_choice",
+      "prompt": "Come si chiede 'Dov'è il bagno?' in coreano?",
+      "targetText": "화장실이 어디예요?",
+      "romanization": "Hwajangsiri eodiyeyo?",
+      "options": [
+        "Dov'è il bagno?",
+        "Quanto costa questo?",
+        "A che ora apre?",
+        "Dov'è la stazione?"
+      ],
+      "correctAnswer": "Dov'è il bagno?",
+      "explanation": "‘화장실’ (bagno) + ‘이’ (particella soggetto) + ‘어디예요?’ (dov'è?)."
+    },
+    {
+      "id": "ko_p02",
+      "type": "listening",
+      "prompt": "Ascolta la domanda e individua di quale luogo si parla:",
+      "targetText": "지하철역이 어디에 있어요?",
+      "romanization": "Jihacheol-yeogi eodie isseoyo?",
+      "audioText": "지하철역이 어디에 있어요?",
+      "audioLang": "ko-KR",
+      "options": [
+        "Stazione della metropolitana (지하철역)",
+        "Aeroporto (공항)",
+        "Ristorante (식당)",
+        "Albergo (호텔)"
+      ],
+      "correctAnswer": "Stazione della metropolitana (지하철역)",
+      "explanation": "‘지하철역’ (jihacheol-yeok) è la fermata/stazione della metropolitana."
+    },
+    {
+      "id": "ko_p03",
+      "type": "drag_sentence",
+      "prompt": "Costruisci la frase: 'Vado a scuola'",
+      "targetText": "학교에 가요",
+      "romanization": "Hakgyo-e gayo",
+      "sentenceParts": ["가요", "학교에"],
+      "correctSentence": ["학교에", "가요"],
+      "explanation": "학교 (scuola) + 에 (a/verso, particella di direzione) + 가요 (vado, da 가다)."
+    },
+    {
+      "id": "ko_p04",
+      "type": "matching_pairs",
+      "prompt": "Collega ciascun luogo in coreano con il suo significato:",
+      "pairs": [
+        { "id": "kp_l1", "left": "도서관", "right": "Biblioteca (doseogwan)", "leftSub": "doseogwan" },
+        { "id": "kp_l2", "left": "병원", "right": "Ospedale (byeong-won)", "leftSub": "byeong-won" },
+        { "id": "kp_l3", "left": "공항", "right": "Aeroporto (gonghang)", "leftSub": "gonghang" },
+        { "id": "kp_l4", "left": "은행", "right": "Banca (eunhaeng)", "leftSub": "eunhaeng" }
+      ],
+      "explanation": "Luoghi pubblici essenziali per orientarsi in Corea del Sud."
+    },
+    {
+      "id": "ko_p05",
+      "type": "writing",
+      "prompt": "Scrivi la particella di moto a luogo usata per dire 'a / in' (es. in '학교... 가요'):",
+      "targetText": "에",
+      "romanization": "-e",
+      "acceptedAnswers": ["에", "e", "-e"],
+      "hint": "Una sola sillaba con vocale 'e'...",
+      "explanation": "La particella ‘에’ (-e) indica destinazione o posizione statica."
+    },
+    {
+      "id": "ko_p06",
+      "type": "fill_blank",
+      "prompt": "Completa con la parola per 'questo': '[Questo] cibo è delizioso'",
+      "targetText": "[blank] 음식이 맛있어요.",
+      "romanization": "[blank] eumsigi masisseoyo.",
+      "blankSentence": "[blank] 음식이 맛있어요.",
+      "options": ["이", "그", "저", "어느"],
+      "correctAnswer": "이",
+      "acceptedAnswers": ["이", "i"],
+      "explanation": "‘이’ (questo/a, vicino a chi parla), ‘그’ (quello, vicino a chi ascolta), ‘저’ (quello là, lontano da entrambi)."
+    },
+    {
+      "id": "ko_p07",
+      "type": "multiple_choice",
+      "prompt": "Quali di queste particelle coreane sono usate per marcare l'oggetto diretto (accusativo)?",
+      "targetText": "목적격 조사",
+      "options": [
+        "을 (dopo consonante finale)",
+        "를 (dopo vocale)",
+        "에서 (a / da)",
+        "의 (di, possessivo)"
+      ],
+      "correctAnswer": [
+        "을 (dopo consonante finale)",
+        "를 (dopo vocale)"
+      ],
+      "explanation": "‘을’ e ‘를’ sono le due forme della particella dell'oggetto diretto in coreano!"
+    }
+  ]
+}
