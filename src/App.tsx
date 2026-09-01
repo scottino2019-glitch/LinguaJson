@@ -234,6 +234,7 @@ export default function App() {
     } else {
       // Lesson Finished!
       setIsLessonFinished(true);
+      resetExerciseInputs();
       if (currentLesson.id) {
         setStats(prev => ({
           ...prev,
@@ -546,39 +547,63 @@ export default function App() {
           <div className="h-24 bg-indigo-900 rounded-2xl p-5 sm:p-6 flex items-center justify-between text-white shrink-0 shadow-xs">
             <div>
               <p className="text-xs uppercase tracking-widest text-indigo-300 font-bold">
-                Current Score
+                {isLessonFinished ? 'Risultato Finale' : 'Current Score'}
               </p>
               <p className="text-xl sm:text-2xl font-bold tracking-tight mt-0.5">
                 {currentAccuracy}%{' '}
                 <span className="text-xs sm:text-sm font-normal opacity-70 ml-2">
-                  {correctCount}/{answeredInSession} Correct
+                  {correctCount}/{totalExercises} Corrette
                   {stats.streak > 0 && ` • 🔥 ${stats.streak}`}
                 </span>
               </p>
             </div>
 
             <div className="flex items-center gap-2">
-              {!isAnswerChecked && currentExercise && !isLessonFinished && (
-                <button
-                  id="bento-skip-btn"
-                  type="button"
-                  onClick={handleSkipExercise}
-                  className="px-4 sm:px-5 py-2 bg-indigo-800/90 hover:bg-indigo-700 rounded-lg text-xs sm:text-sm font-bold transition-all cursor-pointer text-indigo-200 hover:text-white"
-                >
-                  Salta
-                </button>
-              )}
+              {isLessonFinished ? (
+                <>
+                  <button
+                    id="bento-retry-btn"
+                    type="button"
+                    onClick={() => currentLesson && startLesson(currentLesson)}
+                    className="px-3.5 sm:px-4 py-2 bg-indigo-800/90 hover:bg-indigo-700 rounded-lg text-xs sm:text-sm font-bold transition-all cursor-pointer text-indigo-100 hover:text-white"
+                  >
+                    Ripeti
+                  </button>
+                  <button
+                    id="bento-change-lesson-btn"
+                    type="button"
+                    onClick={() => setIsSelectorOpen(true)}
+                    className="px-4 sm:px-5 py-2 bg-white text-indigo-900 hover:bg-indigo-50 rounded-lg text-xs sm:text-sm font-bold transition-all shadow-sm active:scale-95 cursor-pointer flex items-center gap-1.5"
+                  >
+                    <span>Altre Lezioni</span>
+                    <ArrowRight size={14} />
+                  </button>
+                </>
+              ) : (
+                <>
+                  {!isAnswerChecked && currentExercise && (
+                    <button
+                      id="bento-skip-btn"
+                      type="button"
+                      onClick={handleSkipExercise}
+                      className="px-4 sm:px-5 py-2 bg-indigo-800/90 hover:bg-indigo-700 rounded-lg text-xs sm:text-sm font-bold transition-all cursor-pointer text-indigo-200 hover:text-white"
+                    >
+                      Salta
+                    </button>
+                  )}
 
-              {isAnswerChecked && (
-                <button
-                  id="bento-next-btn"
-                  type="button"
-                  onClick={handleNextExercise}
-                  className="px-5 sm:px-6 py-2 bg-white text-indigo-900 hover:bg-indigo-50 rounded-lg text-xs sm:text-sm font-bold transition-all shadow-sm active:scale-95 cursor-pointer flex items-center gap-1.5"
-                >
-                  <span>{currentExerciseIndex === totalExercises - 1 ? 'Fine Lezione' : 'Next Exercise'}</span>
-                  <ArrowRight size={14} />
-                </button>
+                  {isAnswerChecked && (
+                    <button
+                      id="bento-next-btn"
+                      type="button"
+                      onClick={handleNextExercise}
+                      className="px-5 sm:px-6 py-2 bg-white text-indigo-900 hover:bg-indigo-50 rounded-lg text-xs sm:text-sm font-bold transition-all shadow-sm active:scale-95 cursor-pointer flex items-center gap-1.5"
+                    >
+                      <span>{currentExerciseIndex === totalExercises - 1 ? 'Termina Lezione' : 'Prossimo Esercizio'}</span>
+                      <ArrowRight size={14} />
+                    </button>
+                  )}
+                </>
               )}
             </div>
           </div>
@@ -595,8 +620,8 @@ export default function App() {
         </aside>
       </main>
 
-      {/* Floating Bottom Feedback Banner (Active when checked) */}
-      {currentExercise && (
+      {/* Floating Bottom Feedback Banner (Active when checked and lesson is in progress) */}
+      {!isLessonFinished && currentExercise && (
         <ExerciseFeedback
           isAnswerChecked={isAnswerChecked}
           isCorrect={isCorrect}
